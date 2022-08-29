@@ -1,0 +1,122 @@
+body{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*navigator*/
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.project-name{
+    margin: 0;
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+}
+
+.next-page{
+    color: black;
+    text-decoration: none;
+}
+
+.next-page:hover{
+    color:  gray;
+}
+
+/*dashboard*/
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.main-comment{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.highlight:hover{
+    background-color: black;
+    color: white;
+}
+
+.sub-comment{
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+}
+
+
+/*profile-section*/
+.introduction{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+#intro-picture{
+    width: 400px;
+    margin-right: 100px;
+}
+
+.introduction>div>h2{
+    margin: 0px;
+    font-size: 35px;
+}
+
+.introduction>div>p{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.notion-link{
+    color: black;
+    font-size: 15px;
+}
+
+.notion-link:hover{
+    color: gray;
+}
+
+/*plan-section*/ 
+
+.plan-section{
+    margin: 0;
+    font-size: 25px;
+}
+
+.plan-head{
+    margin-bottom: 0;
+}
+
+.plan-para{
+    margin-top: 0;
+}
+
+.plan-list{
+    font-size: 18px;
+}
+
+.baekjoon-link{
+    color: black;
+    font-size: 15px;
+}
+
+.baekjoon-link:hover{
+    color: gray;
+}
